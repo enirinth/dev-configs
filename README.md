@@ -2,8 +2,8 @@
 My personal dev-enviroment configurations.
 
 ## Install List
-python
-java
+python   
+java   
 
 
 ## Configs
