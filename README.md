@@ -3,13 +3,23 @@ My personal dev-enviroment configurations.
 
 ## Install List
 python   
-java   
+java
 
+## How to run
+```
+bash setup.sh
+```
+## install vim plugins using pathogen
+```
+cd ~/.vim/bundle
+git clone https://github.com/scrooloose/nerdtree.git
+```
 
-## Configs
+## File destination
 ```
 ~/.vimrc    
-~/.vim/colors/onedark.vim   (forked from https://github.com/joshdick/onedark.vim.git)   
+~/.vim/colors/onedark.vim   (forked from https://github.com/joshdick/onedark.vim.git) 
+
 ```
 
 
