@@ -10,3 +10,6 @@ cp -i onedark.vim ~/.vim/colors/
 mkdir -p ~/.vim/autoload ~/.vim/bundle && curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim 
 echo 'execute pathogen#infect()' >> ~/.vimrc 
 echo 'filetype plugin indent on' >> ~/.vimrc
+
+# command alias for NERDTree
+echo ':command NT NERDTree' >> ~/.vimrc
