@@ -2,7 +2,9 @@
 
 cp -i .vimrc ~/
 
-cp -i onedark.vim ~/.vim/colors/ # vim one-dark editor color theme
+# vim one-dark editor color theme
+mkdir -p ~/.vim/colors/
+cp -i onedark.vim ~/.vim/colors/ 
 
 # install pathogen - vim plugin management
 mkdir -p ~/.vim/autoload ~/.vim/bundle && curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim 
