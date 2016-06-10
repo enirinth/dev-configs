@@ -4,6 +4,7 @@ My personal dev-enviroment configurations.
 ## Install List
 python   
 java
+g++/gcc
 
 ## How to run
 ```
