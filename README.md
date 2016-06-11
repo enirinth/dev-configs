@@ -3,8 +3,9 @@ My personal dev-enviroment configurations.
 
 ## Install List
 python   
-java
-g++/gcc
+java   
+g++/gcc   
+ssh-copy-id  
 
 ## How to run
 ```
