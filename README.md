@@ -5,7 +5,8 @@ My personal dev-enviroment configurations.
 python   
 java   
 g++/gcc   
-ssh-copy-id  
+ssh-copy-id 
+ctags(linux)/exuberant-ctags(mac)
 
 ## How to run
 ```
@@ -17,6 +18,7 @@ cd ~/.vim/bundle
 git clone https://github.com/scrooloose/nerdtree.git
 git clone git://github.com/tpope/vim-surround.git 
 git clone https://github.com/vim-scripts/AutoComplPop
+git clone git://github.com/majutsushi/tagbar
 ```
 
 
