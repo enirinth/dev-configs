@@ -5,8 +5,8 @@ My personal dev-enviroment configurations.
 python   
 java   
 g++/gcc   
-ssh-copy-id 
-ctags(linux)/exuberant-ctags(mac)
+ssh-copy-id   
+ctags(linux)/exuberant-ctags(mac)   
 
 ## How to run
 ```
