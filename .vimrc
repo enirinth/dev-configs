@@ -27,3 +27,8 @@ filetype plugin indent on
 " command aliases
 :command NT NERDTree
 :command TB TagbarToggle
+
+" ctrlP settings
+let g:ctrlp_max_files=0  " no limit to how many files ctrpP indexes
+let g:ctrlP_max_depth=40
+
