@@ -5,6 +5,7 @@ set expandtab  " tabs are spaces, not tabs
 set tabstop=4  " an indentation every four columns
 set softtabstop=4  " let backspace delete indent
 :set cursorline
+:set cc=80
 
 " file type
 set ffs=unix 
@@ -25,3 +26,6 @@ filetype plugin indent on
 
 " command aliases
 :command NT NERDTree
+
+" tagbar shortcut
+:command TB TagbarToggle
