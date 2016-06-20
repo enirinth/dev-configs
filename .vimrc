@@ -26,6 +26,4 @@ filetype plugin indent on
 
 " command aliases
 :command NT NERDTree
-
-" tagbar shortcut
 :command TB TagbarToggle
