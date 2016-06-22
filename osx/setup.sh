@@ -15,4 +15,5 @@ cp -i proto.vim ~/.vim/syntax/
 mkdir -p ~/.vim/autoload ~/.vim/bundle && curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim 
 
 # create symlink from built-in vim to MacVim
-echo '# create symlink from MacVim to built in vim \n vim='/usr/local/Cellar/macvim/7.4-104/MacVim.app/Contents/MacOS/Vim'' >> ~/.bashrc
+echo '# create symlink from MacVim to built-in vim' >> ~/.bashrc
+echo 'alias vim='/usr/local/Cellar/macvim/7.4-104/MacVim.app/Contents/MacOS/Vim'' >> ~/.bashrc
