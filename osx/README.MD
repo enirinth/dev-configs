@@ -2,15 +2,20 @@
 
 ## Install List
   - python   
-java   
-g++/gcc   
-CMake
-ssh-copy-id   
-exuberant-ctags(mac)
+  - java   
+  - g++/gcc   
+  - CMake
+  - ssh-copy-id   
+  -exuberant-ctags(mac)
 ```sh
-brew install ctags
+$ brew install ctags
 ```
-MacVim   
+  - MacVim   
+  - pathogen
+```sh
+mkdir -p ~/.vim/autoload ~/.vim/bundle && \
+curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim
+```
 
 ## install vim plugins using pathogen
 ```
