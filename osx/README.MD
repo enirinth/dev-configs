@@ -6,7 +6,7 @@
   - g++/gcc   
   - CMake
   - ssh-copy-id   
-  -exuberant-ctags(mac)
+  - exuberant-ctags(mac)
 ```sh
 brew install ctags
 ```

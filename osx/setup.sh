@@ -13,3 +13,6 @@ cp -i proto.vim ~/.vim/syntax/
 
 # install pathogen - vim plugin management
 mkdir -p ~/.vim/autoload ~/.vim/bundle && curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim 
+
+# create symlink from built-in vim to MacVim
+echo 'alias='/usr/local/Cellar/macvim/7.4-104/MacVim.app/Contents/MacOS/Vim''
