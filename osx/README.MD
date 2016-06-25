@@ -2,15 +2,15 @@
 
 ## pre-install List
   - python   
-  - java   
-  - g++/gcc   
-  - CMake
+  - java (preferrably 1.8)
+  - g++/gcc (not necessary if you already have xcode cli tools)
+  - CMake (not necessary if you already have xcode cli tools)
   - ssh-copy-id   
   - exuberant-ctags(mac)
 ```sh
 brew install ctags
 ```
-  - MacVim   
+  - MacVim (brew or download .dmg)   
   - pathogen
 ```sh
 mkdir -p ~/.vim/autoload ~/.vim/bundle && \
