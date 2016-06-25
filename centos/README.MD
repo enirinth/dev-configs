@@ -3,22 +3,26 @@
 ## pre-install List
   - python and python dev (python extension support)
 ```sh
-yum install pyton-devel
+sudo yum install pyton-devel
 ```
   - java   
-  - g++/gcc   
+  - g++/gcc
+```sh
+sudo yum install gcc   
+sudo yum install gcc-c++    
+```
   - CMake
 ```sh
-yum install cmake 
+sudo yum install cmake 
 ```
   - llvm and clang
 ```sh
-yum install clang
+sudo yum install clang
 ```
   - ssh-copy-id   
   - exuberant-ctags(mac)
 ```sh
-yum install ctags
+sudo yum install ctags
 ```
   - pathogen
 ```sh
