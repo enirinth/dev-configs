@@ -1,4 +1,4 @@
-# dot files and  dev-configs for OSX
+# dot files and  dev-configs for Fedora
 
 ## pre-install List
   - python   
