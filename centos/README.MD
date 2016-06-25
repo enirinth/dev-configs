@@ -1,10 +1,18 @@
 # dot files and  dev-configs for Fedora
 
 ## pre-install List
-  - python   
+  - python and python dev (python extension support)
+```sh
+yum install pyton-devel
+```
   - java   
   - g++/gcc   
   - CMake
+```sh
+yum install cmake 
+```
+  - llvm and clang
+yum install clang 
   - ssh-copy-id   
   - exuberant-ctags(mac)
 ```sh
