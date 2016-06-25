@@ -12,7 +12,9 @@ yum install pyton-devel
 yum install cmake 
 ```
   - llvm and clang
-yum install clang 
+```sh
+yum install clang
+```
   - ssh-copy-id   
   - exuberant-ctags(mac)
 ```sh
