@@ -1,6 +1,12 @@
 # dot files and  dev-configs for Fedora
 
 ## pre-install List
+  - vim (latest version)
+```sh
+git clone https://github.com/vim/vim.git
+cd vim/src
+make
+```
   - python and python dev (python extension support)
 ```sh
 sudo yum install pyton-devel
