@@ -5,7 +5,8 @@
 ```sh
 git clone https://github.com/vim/vim.git
 cd vim/src
-make
+(need to enable python support before install, find Makefile and search for python, uncomment necessary part)
+make install
 ```
   - python and python dev (python extension support)
 ```sh
