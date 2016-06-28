@@ -14,8 +14,9 @@ set ff=unix
 
 " backspace
 set backspace=start " allow backspace to delete txt existed before entering insert mode
-" set backspace=indent 
-" set backspace=eol
+" Uncomment below if you want backspace to function no matter where in insert
+" mode
+" set backspace=indent,eol,start 
 
 " set color theme to one dark
 let g:airline_eheme = 256
