@@ -1,5 +1,6 @@
 syntax on
 set number  "show line number
+:set mouse=a  "allow scrolling without ctrl+f/b
 set expandtab  " tabs are spaces, not tabs
 set tabstop=2  " how many cols a tab counts for - use to display text
 set softtabstop=2  " how many cols a tab counts for - use to edit text
@@ -10,6 +11,11 @@ set shiftwidth=2  " how many cols a tab counts for - use in auto indent
 " file type
 set ffs=unix 
 set ff=unix
+
+" backspace
+set backspace=start " allow backspace to delete txt existed before entering insert mode
+" set backspace=indent 
+" set backspace=eol
 
 " set color theme to one dark
 let g:airline_eheme = 256
@@ -34,3 +40,4 @@ let g:ctrlP_max_depth=40
 
 " YouCompleteMe Settings
 let g:ycm_global_ycm_extra_conf = '~/.vim/bundle/YouCompleteMe/cpp/.ycm_extra_conf.py'
+let g:ycm_filetype_whitelist = { 'cpp': 1, 'c': 1, 'python':1 }

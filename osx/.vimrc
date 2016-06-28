@@ -12,6 +12,11 @@ set shiftwidth=2  " how many cols a tab counts for - use in auto indent
 set ffs=unix 
 set ff=unix
 
+" backspace
+set backspace=start " allow backspace to delete txt existed before entering insert mode
+" set backspace=indent 
+" set backspace=eol
+
 " set color theme to one dark
 let g:airline_eheme = 256
 colorscheme onedark
@@ -35,3 +40,4 @@ let g:ctrlP_max_depth=40
 
 " YouCompleteMe Settings
 let g:ycm_global_ycm_extra_conf = '~/.vim/bundle/YouCompleteMe/cpp/.ycm_extra_conf.py'
+let g:ycm_filetype_whitelist = { 'cpp': 1, 'c': 1, 'python':1 }
