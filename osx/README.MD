@@ -1,6 +1,8 @@
 # dot files and  dev-configs for OSX
 
 ## pre-install List
+  - git
+    - `git config --global core.editor "vim"` 
   - python   
   - java (preferrably 1.8)
   - g++/gcc (not necessary if you already have xcode cli tools)
