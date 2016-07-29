@@ -1,11 +1,13 @@
 # dot files and  dev-configs for Fedora
 
 ## pre-install List
+  - git
+    - set `git config --global core.editor "vim"` 
   - vim (latest version)
+  - (need to enable python support before install, find Makefile and search for python, uncomment necessary part)
 ```sh
 git clone https://github.com/vim/vim.git
 cd vim/src
-(need to enable python support before install, find Makefile and search for python, uncomment necessary part)
 make install
 ```
   - python and python dev (python extension support)
