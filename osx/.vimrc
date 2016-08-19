@@ -1,7 +1,7 @@
 syntax on
 set number  "show line number
 :set mouse=a  "allow scrolling without ctrl+f/b
-#set expandtab  " tabs are spaces, not tabs
+" set expandtab  " tabs are spaces, not tabs
 set tabstop=2  " how many cols a tab counts for - use to display text
 set softtabstop=2  " how many cols a tab counts for - use to edit text
 set shiftwidth=2  " how many cols a tab counts for - use in auto indent
