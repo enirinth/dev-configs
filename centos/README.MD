@@ -12,7 +12,7 @@ make install
 ```
   - python and python dev (python extension support)
 ```sh
-sudo yum install pyton-devel
+sudo yum install python-devel
 ```
   - java   
   - g++/gcc
