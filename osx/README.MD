@@ -38,5 +38,14 @@ git submodule update --init --recursive
 ```
 bash setup.sh
 ```
-
+## config clang-format
+install llvm
+locate clang-format.py
+add to ~/.vimrc:
+```
+map <C-K> :pyf <path-to-this-file>/clang-format.py<cr>     
+imap <C-K> <c-o>:pyf <path-to-this-file>/clang-format.py<cr>
+```
+specify project by generating .clang-format in project root directory
+`clang-format -style=llvm -dump-config > .clang-format`
 
