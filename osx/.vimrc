@@ -46,3 +46,15 @@ let g:ycm_autoclose_preview_window_after_completion = 0
 
 " Airline Status Bar Settings
 set laststatus=2
+
+" Airline Status Bar Settings
+set laststatus=2
+
+" Vim-latex live preview settings
+autocmd Filetype tex setl updatetime=1
+let g:livepreview_previewer	= 'open -a Preview'
+
+" clang-format settings
+map <C-K> :pyf /usr/local/Cellar/llvm/3.8.1/share/clang/clang-format.py<cr>
+imap <C-K> <c-o>:pyf /usr/local/Cellar/llvm/3.8.1/share/clang/clang-format.py<cr>
+
