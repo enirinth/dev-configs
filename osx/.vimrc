@@ -47,14 +47,16 @@ let g:ycm_autoclose_preview_window_after_completion = 0
 " Airline Status Bar Settings
 set laststatus=2
 
-" Airline Status Bar Settings
-set laststatus=2
-
 " Vim-latex live preview settings
 autocmd Filetype tex setl updatetime=1
 let g:livepreview_previewer	= 'open -a Preview'
 
 " clang-format settings
-map <C-K> :pyf /usr/local/Cellar/llvm/3.8.1/share/clang/clang-format.py<cr>
-imap <C-K> <c-o>:pyf /usr/local/Cellar/llvm/3.8.1/share/clang/clang-format.py<cr>
+map <C-N> :pyf /usr/local/Cellar/llvm/3.8.1/share/clang/clang-format.py<cr>
+imap <C-N> <c-o>:pyf /usr/local/Cellar/llvm/3.8.1/share/clang/clang-format.py<cr>
 
+" Navigation across splits
+map <C-j> <C-W>j
+map <C-k> <C-W>k
+map <C-h> <C-W>h
+map <C-l> <C-W>l
