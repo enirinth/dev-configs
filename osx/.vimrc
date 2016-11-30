@@ -41,7 +41,7 @@ let g:ctrlP_max_depth=40
 
 " YouCompleteMe Settings
 let g:ycm_global_ycm_extra_conf = '~/.vim/bundle/YouCompleteMe/cpp/.ycm_extra_conf.py'
-let g:ycm_filetype_whitelist = { 'cpp': 1, 'c': 1, 'python':1 }
+let g:ycm_filetype_whitelist = { 'cpp': 1, 'c': 1, 'python':1, 'go':1}
 let g:ycm_autoclose_preview_window_after_completion = 0
 
 " Airline Status Bar Settings
