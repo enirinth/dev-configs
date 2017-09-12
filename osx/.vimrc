@@ -7,6 +7,7 @@ set softtabstop=2  " how many cols a tab counts for - use to edit text
 set shiftwidth=2  " how many cols a tab counts for - use in auto indent
 :set cursorline  " hightlight current line
 :set cc=80  " set right margin
+set splitright " always open split on the right
 
 " file type
 set ffs=unix 
