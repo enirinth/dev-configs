@@ -8,6 +8,7 @@ set shiftwidth=2  " how many cols a tab counts for - use in auto indent
 :set cursorline  " hightlight current line
 :set cc=80  " set right margin
 set clipboard=unnamed " yank to sys clipboard
+set splitright " always open split on the right
 
 " file type
 set ffs=unix 
