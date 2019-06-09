@@ -23,14 +23,6 @@ set ff=unix
 " mode
 set backspace=indent,eol,start
 
-" set color theme to one dark
-let g:airline_eheme = 256
-colorscheme onedark
-
-" ycm comfig
-let g:ycm_autoclose_preview_window_after_insertion = 1
-
-
 " command aliases
 :command NT NERDTree
 :command TB TagbarToggle
