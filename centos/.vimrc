@@ -31,6 +31,10 @@ set backspace=indent,eol,start
 let g:ctrlp_max_files=0  " no limit to how many files ctrpP indexes
 let g:ctrlP_max_depth=40
 
+" set color theme to one dark
+let g:airline_eheme = 256
+colorscheme onedark
+
 " Airline Status Bar Settings
 set laststatus=2
 
